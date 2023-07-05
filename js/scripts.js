@@ -213,20 +213,20 @@ $(document).ready(function () {
 		},
 		data: {
 			// Event title
-			title: "Chelsea and Jim's Wedding",
+			title: "Paige & Jarvys' Wedding",
 
 			// Event start date
-			start: new Date("Mar 7, 2024"),
+			start: new Date("Dec 23, 2023"),
 
 			// Event duration (IN MINUTES)
 			// duration: 120,
 
 			// You can also choose to set an end time
 			// If an end time is set, this will take precedence over duration
-			end: new Date("Mar 7, 2024"),
+			end: new Date("Dec 23, 2023"),
 
 			// Event Address
-			address: "5330 Michigan Ave, St Cloud, FL 34772",
+			address: "691 1st St N, Jacksonville Beach, FL, 32250",
 
 			// Event Description
 			description: "We can't wait to see you on our big day. For any queries or issues, please contact us.",
@@ -267,7 +267,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-	var location = { lat: 28.2072119, lng: -81.2801649 };
+	var location = { lat: 30.29482, lng: -81.39036 };
 	var map = new google.maps.Map(document.getElementById("map-canvas"), {
 		zoom: 15,
 		center: location,
@@ -281,7 +281,7 @@ function initMap() {
 }
 
 function initBBSRMap() {
-	var la_fiesta = { lat: 28.2072119, lng: -81.2801649 };
+	var la_fiesta = { lat: 28.29482, lng: -81.39036 };
 	var map = new google.maps.Map(document.getElementById("map-canvas"), {
 		zoom: 15,
 		center: la_fiesta,
